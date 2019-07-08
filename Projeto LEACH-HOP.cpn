@@ -18,16 +18,16 @@
       </block>
       <block id="ID1412705549">
         <id>Valores do Sistema</id>
-        <ml id="ID1414325234">val caminho = &quot;Simulacoes/Arranjos/100/&quot;;
-          <layout>val caminho = &quot;Simulacoes/Arranjos/100/&quot;;</layout>
+        <ml id="ID1414325234">val caminho = &quot;Arranjos/100/&quot;;
+          <layout>val caminho = &quot;Arranjos/100/&quot;;</layout>
         </ml>
         <ml id="ID1414327063">val arquivo = caminho^
                       &quot;nodes1.txt&quot;;
           <layout>val arquivo = caminho^
                       &quot;nodes1.txt&quot;;</layout>
         </ml>
-        <ml id="ID1414328836">val qtdSet = 2;
-          <layout>val qtdSet = 2;</layout>
+        <ml id="ID1414328836">val qtdSet = 8;
+          <layout>val qtdSet = 8;</layout>
         </ml>
         <ml id="ID1412699395">val qtdNodes = 100;
           <layout>val qtdNodes = 100;</layout>
@@ -7940,12 +7940,27 @@ Setor</text>
           <text>&lt;same as model&gt;</text>
         </value>
       </option>
-      <option name="extensions.10011.enable">
+      <option name="extensions.10008.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10006.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10007.enable">
         <value>
           <boolean>true</boolean>
         </value>
       </option>
       <option name="extensions.10001.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10011.enable">
         <value>
           <boolean>true</boolean>
         </value>
@@ -7965,32 +7980,17 @@ Setor</text>
           <boolean>true</boolean>
         </value>
       </option>
-      <option name="extensions.10006.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
       <option name="extensions.10004.enable">
         <value>
           <boolean>true</boolean>
         </value>
       </option>
-      <option name="extensions.10008.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10007.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10011.options.disable">
+      <option name="extensions.10007.options.discover">
         <value>
           <boolean>false</boolean>
         </value>
       </option>
-      <option name="extensions.10007.options.discover">
+      <option name="extensions.10011.options.disable">
         <value>
           <boolean>false</boolean>
         </value>
@@ -8195,12 +8195,12 @@ Setor</text>
       <cpnbinder id="ID1414285362"
                  x="260"
                  y="52"
-                 width="367"
-                 height="411">
+                 width="1083"
+                 height="599">
         <sheets>
           <cpnsheet id="ID1412343910"
-                    panx="-2055.658750"
-                    pany="-91.832626"
+                    panx="201.341250"
+                    pany="178.167374"
                     zoom="0.800000"
                     instance="ID2149">
             <zorder>
@@ -8228,11 +8228,19 @@ Setor</text>
                      decl="ID1412536603">
             <zorder/>
           </textsheet>
+          <textsheet id="ID1414344939"
+                     panx="7.000000"
+                     pany="20.000000"
+                     zoom="1.000000"
+                     decl="ID1412664199">
+            <zorder/>
+          </textsheet>
         </sheets>
         <zorder>
           <position value="2"/>
           <position value="1"/>
           <position value="3"/>
+          <position value="4"/>
           <position value="0"/>
         </zorder>
       </cpnbinder>
@@ -8680,7 +8688,7 @@ end</layout>
           <IndexNode expanded="true"/>
           <IndexNode expanded="true"/>
         </IndexNode>
-        <IndexNode expanded="true">
+        <IndexNode expanded="false">
           <IndexNode expanded="true"/>
           <IndexNode expanded="true"/>
           <IndexNode expanded="true"/>
